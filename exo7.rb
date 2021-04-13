@@ -1,0 +1,12 @@
+puts "Donne moi un nombre..."
+nombre = gets.chomp.to_i 
+nombre.times do |i|
+    puts i + 1
+        
+end
+
+puts "Bravo Maggle"
+    
+
+
+
