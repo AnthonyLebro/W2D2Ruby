@@ -1,8 +1,8 @@
-puts "Donne moi un nombre:"
+puts "Donne moi un nombre:" 
 
-nombre = gets.chomp.to_i - 1
+nombre = gets.chomp.to_i #déclare la variable nombre
 
-nombre .times do
+nombre .times do # nombre en boucle x la vriable nombre
 
 puts "Bonjour toi!" 
 end 

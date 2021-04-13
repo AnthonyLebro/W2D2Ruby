@@ -1,4 +1,4 @@
-email = []
+email = [] #variable tableau
 
 50.times do |i|
 
@@ -6,6 +6,6 @@ email = []
 
 end
 
-puts email.inspect
+#puts email .inspect a rajouter pour afficher le détail du tableau. 
 
 puts email.select.each_with_index {|item , index| index.even?}

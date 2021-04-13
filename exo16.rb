@@ -6,7 +6,6 @@ space = " " #Déclaration d'une variable "space" qui est égale a un espace.
 
 nombre.times do |i| #Nombre x i 
 
-
-puts (" " + "#") * (i + 1)
+puts (space * (nombre - i -1 )) + "#" * (i + 1)
 
 end
